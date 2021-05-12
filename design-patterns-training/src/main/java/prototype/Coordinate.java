@@ -1,4 +1,4 @@
-package java.prototype;
+package prototype;
 
 public class Coordinate {
 
@@ -6,7 +6,9 @@ public class Coordinate {
     private String longitude;
     private String latitude;
 
-    public Coordinate(String hemisphere, String longitude, String latitude) {
+    public Coordinate(final String hemisphere,
+                      final String longitude,
+                      final String latitude) {
         this.hemisphere = hemisphere;
         this.longitude = longitude;
         this.latitude = latitude;

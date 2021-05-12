@@ -1,4 +1,4 @@
-package java.proxy;
+package proxy;
 
 public class Client {
 
@@ -6,7 +6,9 @@ public class Client {
     private String lastName;
     private String email;
 
-    public Client(String firstName, String lastName, String email) {
+    public Client(final String firstName,
+                  final String lastName,
+                  final String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

@@ -1,4 +1,4 @@
-package java.proxy;
+package proxy;
 
 import java.util.List;
 
